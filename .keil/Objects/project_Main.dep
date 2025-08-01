@@ -1,0 +1,248 @@
+Dependencies for Project 'project', Target 'Main': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (..\.cmsis\dev\startup_sc32r803.s)(0x688C6B7A)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-mlittle-endian -Wa,armasm,--pd,"__MICROLIB SETA 1"-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 542" -Wa,armasm,--pd,"ARMCM0P SETA 1"-o ./objects/startup_sc32r803.o)
+F (..\hal\SC32F1X\src\sc32f1xxx_adc.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_adc.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_adc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32_conf.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_gpio.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_iap.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_cmp.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_option.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_int.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_uart.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_spi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_twi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_wdt.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_btm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_crc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_pwm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_ledpwm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_lcd.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_led.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_tim.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_dma.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_pwr.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_op.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_can.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_qspi.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_btm.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_btm.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_btm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_can.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_can.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_can.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_cmp.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_cmp.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_cmp.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_crc.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_crc.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_crc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_dac.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_dac.o -MMD)
+F (..\hal\SC32F1X\src\sc32f1xxx_dma.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_dma.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_dma.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_gpio.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_gpio.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_gpio.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_iap.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_iap.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_iap.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_int.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_int.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_int.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_lcd.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_lcd.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_lcd.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_led.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_led.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_led.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_ledpwm.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_ledpwm.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_ledpwm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_op.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_op.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_op.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+F (..\hal\SC32F1X\src\sc32f1xxx_option.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_option.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_option.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_pga.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_pga.o -MMD)
+F (..\hal\SC32F1X\src\sc32f1xxx_pwm.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_pwm.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_pwm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_pwr.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_pwr.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_pwr.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_qep.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_qep.o -MMD)
+F (..\hal\SC32F1X\src\sc32f1xxx_qspi.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_qspi.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_qspi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_rcc.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_rcc.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_spi.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_spi.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_spi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_spi1_twi1.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_spi1_twi1.o -MMD)
+F (..\hal\SC32F1X\src\sc32f1xxx_temper.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_temper.o -MMD)
+F (..\hal\SC32F1X\src\sc32f1xxx_tim.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_tim.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_tim.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_twi.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_twi.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_twi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_uart.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_uart.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_uart.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\sc32f1xxx_vref.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_vref.o -MMD)
+F (..\hal\SC32F1X\src\sc32f1xxx_wdt.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/sc32f1xxx_wdt.o -MMD)
+I (..\hal\SC32F1X\inc\sc32f1xxx_wdt.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+F (..\hal\SC32F1X\src\system_sc32f1xxx.c)(0x688C6B7A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/system_sc32f1xxx.o -MMD)
+I (..\hal\SC32F1X\inc\sc32_conf.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_gpio.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_iap.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_adc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_cmp.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_option.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_int.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_uart.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_spi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_twi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_wdt.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_btm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_crc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_pwm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_ledpwm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_lcd.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_led.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_tim.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_dma.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_pwr.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_op.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_can.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_qspi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\system_sc32f1xxx.h)(0x688C6B7A)
+F (..\src\main.c)(0x688C7386)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -flto -funsigned-char-D__MICROLIB -mlittle-endian -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../.cmsis/inc -I ../hal/SC32F1X/inc -I ../src-IC:/Users/proyr/AppData/Local/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM0plus/Include-D__UVISION_VERSION="542" -DARMCM0P -DSC32R803-o ./objects/main.o -MMD)
+I (..\hal\SC32F1X\inc\sc32_conf.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32r803.h)(0x688C6B7A)
+I (..\.cmsis\inc\core_cm0plus.h)(0x626FB8EC)
+I (..\hal\SC32F1X\inc\sc32f1xxx_rcc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_gpio.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_iap.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_adc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_cmp.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_option.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_int.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_uart.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_spi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_twi.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_wdt.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_btm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_crc.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_pwm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_ledpwm.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_lcd.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_led.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_tim.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_dma.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_pwr.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_op.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_can.h)(0x688C6B7A)
+I (..\hal\SC32F1X\inc\sc32f1xxx_qspi.h)(0x688C6B7A)
