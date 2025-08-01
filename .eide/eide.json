@@ -3,160 +3,16 @@
   "type": "ARM",
   "dependenceList": [],
   "srcDirs": [
-    ".cmsis"
+    ".cmsis",
+    "lib",
+    "drv",
+    "hal",
+    "src"
   ],
   "virtualFolder": {
     "name": "<virtual_root>",
     "files": [],
-    "folders": [
-      {
-        "name": "drv",
-        "files": [],
-        "folders": [
-          {
-            "name": "st7789v",
-            "files": [],
-            "folders": []
-          },
-          {
-            "name": "w25q64",
-            "files": [],
-            "folders": []
-          }
-        ]
-      },
-      {
-        "name": "hal",
-        "files": [],
-        "folders": [
-          {
-            "name": "SC32F1X",
-            "files": [],
-            "folders": [
-              {
-                "name": "src",
-                "files": [
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_adc.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_btm.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_can.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_cmp.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_crc.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_dac.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_dma.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_gpio.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_iap.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_int.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_lcd.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_led.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_ledpwm.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_op.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_option.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_pga.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_pwm.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_pwr.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_qep.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_qspi.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_rcc.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_spi.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_spi1_twi1.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_temper.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_tim.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_twi.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_uart.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_vref.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/sc32f1xxx_wdt.c"
-                  },
-                  {
-                    "path": "hal/SC32F1X/src/system_sc32f1xxx.c"
-                  }
-                ],
-                "folders": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "lib",
-        "files": [],
-        "folders": [
-          {
-            "name": "rt-thread",
-            "files": [],
-            "folders": []
-          }
-        ]
-      },
-      {
-        "name": "src",
-        "files": [
-          {
-            "path": "src/main.c"
-          },
-          {
-            "path": "src/startup_sc32r803.s"
-          }
-        ],
-        "folders": []
-      }
-    ]
+    "folders": []
   },
   "outDir": "build",
   "deviceName": null,
@@ -166,7 +22,29 @@
   },
   "targets": {
     "Main": {
-      "excludeList": [],
+      "excludeList": [
+        "<virtual_root>/lib",
+        "<virtual_root>/drv",
+        "drv/st7789v",
+        "drv/w25q64",
+        "lib/littlefs",
+        "lib/lvgl",
+        "lib/rt-thread/libcpu/risc-v",
+        "lib/rt-thread/libcpu/arm/arm926",
+        "lib/rt-thread/libcpu/arm/armv6",
+        "lib/rt-thread/libcpu/arm/common",
+        "lib/rt-thread/libcpu/arm/cortex-a",
+        "lib/rt-thread/libcpu/arm/cortex-m23",
+        "lib/rt-thread/libcpu/arm/cortex-m3",
+        "lib/rt-thread/libcpu/arm/cortex-m33",
+        "lib/rt-thread/libcpu/arm/cortex-m4",
+        "lib/rt-thread/libcpu/arm/cortex-m7",
+        "lib/rt-thread/libcpu/arm/cortex-r4",
+        "lib/rt-thread/libcpu/arm/cortex-m0/context_gcc.S",
+        "lib/rt-thread/libcpu/arm/cortex-m0/context_iar.S",
+        "lib/rtos/libcpu/arm/cortex-m0/context_gcc.S",
+        "lib/rtos/libcpu/arm/cortex-m0/context_iar.S"
+      ],
       "toolchain": "AC6",
       "compileConfig": {
         "cpuType": "Cortex-M0+",
@@ -305,12 +183,16 @@
         "name": "default",
         "incList": [
           "hal/SC32F1X/inc",
-          "src",
-          ".cmsis/inc"
+          ".cmsis/inc",
+          "src/port",
+          "inc",
+          "lib/rtos/inc",
+          "lib/rtos/cmp/finsh"
         ],
         "libList": [],
         "defineList": [
-          "SC32R803"
+          "SC32R803",
+          "PrintfEnable"
         ]
       },
       "builderOptions": {

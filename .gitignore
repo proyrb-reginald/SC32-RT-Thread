@@ -60,4 +60,4 @@ dkms.conf
 .keil/*uvguix*
 
 # EIDE
-build/
+/build/

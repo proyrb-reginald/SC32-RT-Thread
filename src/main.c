@@ -1,9 +1,11 @@
+#include <sc32_conf.h>
+#include <rtthread.h>
 #include <stdio.h>
-#include "sc32_conf.h"
 
 int main()
 {
     while (1) {
-        printf("Hello world\n");
+        rt_kprintf("Hello world!\n");
+        rt_thread_delay(500);
     }
 }
