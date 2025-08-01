@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# keil
+.keil/Listings
+.keil/Objects
+.keil/*uvguix*
+
+# EIDE
+build/
